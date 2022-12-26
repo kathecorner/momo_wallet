@@ -91,7 +91,7 @@ curl_close($curl);
 
           if(responseData.resultCode == "Authorised"){
               alert('PAYMENT SUCCESSFUL!');
-              window.location.href = 'http://127.0.0.1:8080/return.php';
+              window.location.href = '/return.php';
           }
       }
 
