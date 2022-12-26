@@ -18,7 +18,7 @@ $additional_data = [
     "paymentMethod" => array(
       "type" => "momo_wallet"
     ),
-    'returnUrl' => 'http://127.0.0.1:8080/return.php',
+    'returnUrl' => 'https://adyenwebkenji.herokuapp.com/return.php',
     'channel' => 'Web',
     'additionalData' => [
         'allow3DS2' => 'true'
